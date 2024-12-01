@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-body{
+    background-color: #C9E6F0;
+    height: 100vh;
+    text-align: center;
+}
+
+.title{
+    padding-top: 5rem;
+    font-size: larger;
+}
+
+.timer-settings{
+    display: flex;
+    justify-content: center;
+}
+
+.setting-container{
+    padding: 2rem;
+}
+
+.setting-label{
+    font-weight: 500;
+}
+
+.setting-value{
+    font-size: x-large;
+    padding: 0.5rem;
+    background: #FBF8EF;
+    display: inline-block;
+    min-width: 40px;
+    margin: 0.5rem 0 0 0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.setting-button{
+    padding: 0.1rem 0.3rem;
+    font-size: large;
+    margin: 0.5rem;
+}
+
+.countdown-container{
+    display: inline-block;
+    border: solid;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+}
+
+.countdown{
+    font-size: 5rem;
+}
+
+.control-container{
+    display: flex;
+    justify-content: center;
+}
+
+.control-button{
+    padding: 0.2rem 0.4rem;
+    font-size: x-large;
+    margin: 0.5rem 1rem;
+}
